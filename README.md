@@ -1,4 +1,6 @@
 # Animal-Voice-Recognition-System
+Animal finder is an AI-based innovative system for animal voice recognition and classification to identify animals using LSTM (Long Short-Term Memory) models. Animal finder is designed to work with audio recordings of animal sounds, which are input into the system. The system uses wavelet filters to de-noise the audio and pre-processing techniques to convert the raw audio data into a suitable format for analysis. Mel-frequency cepstral coefficient (MFCC) is used to extract the features of sound. The feature extracted data is then fed into an LSTM model, which is trained on a large dataset of animal sounds to learn the temporal and spectral patterns of different animal species.
+
 ANIMAL FINDER WEB APP:
   The animal finder web app module built using python flask is a web-based user interface that enables users to interact with the animal finder system.
   Sound uploading: The web app module allows users to record animal’s sounds using upload sound files from their computer or phone.
@@ -33,7 +35,7 @@ RECOMMENDATION:
 PERFORMANCE ANALYSIS:
   The performance of animal voice recognition and classification system can be analyzed using various metrics.
   1. Accuracy: The accuracy of the system is defined as the percentage of correct animal species identification over the total number of animal sound recordings tested.
-  2. 2. Precision: The precision of the system is the ratio of true positive animal species identifications to the total number of positive identifications (i.e., the number of times the system identified animal species correctly).
+  2. Precision: The precision of the system is the ratio of true positive animal species identifications to the total number of positive identifications (i.e., the number of times the system identified animal species correctly).
   3. Recall: The recall of the system is the ratio of true positive animal species identifications to the total number of actual animal species recordings in the dataset.
   4. F1 Score: The F1 score is a harmonic mean of precision and recall. It provides a single value that represents the overall performance of the system.
 
@@ -43,3 +45,10 @@ ANIMAL VOICE RECOGNITION SYSTEM GOALS
   • Agricultural and livestock monitoring
   • Human-animal interaction
   • Wildlife research
+
+ADVANTAGES
+  Accuracy: The use of AI-based technology such as LSTM can provide high accuracy in identifying animals based on their sound. This can help in accurately identifying different animal species in a particular area.
+  Efficiency: The use of an automated system can save time and effort compared to traditional manual methods of identifying animals, which can be tedious and time-consuming.
+  Scalability: The system can be easily scaled up or down depending on the requirements. For example, it can be used to identify animal in a small area or a large area such as a national park.
+  Accessibility: The system can be accessed remotely, making it easy for researchers and animal enthusiasts to use it from anywhere.
+  Cost-effective: The system can be cost-effective compared to traditional methods of animal’s identification, which require specialized equipment and trained personnel.
