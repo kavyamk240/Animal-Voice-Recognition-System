@@ -1,0 +1,12 @@
+HARDWARE REQUIREMENTS:
+  • Processor : Intel® Core, AMD Ryzen
+  • RAM : 4GB
+  • Memory : 256GB
+
+SOFTWARE REQUIREMENTS:
+  • Server Side : Python 3.7.4(64-bit) or (32-bit)
+  • Client Side : HTML, CSS, Bootstrap
+  • IDE : Flask 1.1.1
+  • Back end : MySQL 5.7
+  • Server : Wampserver 2i
+  • Packages : TensorFlow, Keras, Pandas, SiKit Learn
